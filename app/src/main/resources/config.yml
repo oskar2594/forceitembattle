@@ -1,0 +1,18 @@
+format:
+  prefix: '§8[§6ForceItemBattle§8]'
+  colors:
+    default: '§7'
+lobby:
+  world: 'world'
+  spawn:
+    x: -3.5
+    y: -15.5
+    z: 14.5
+    yaw: -125
+    pitch: 0
+  limits:
+    min: -19
+    max: 15
+teams:
+  size: 2
+minPlayers: 2

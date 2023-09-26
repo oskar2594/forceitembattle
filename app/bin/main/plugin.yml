@@ -1,0 +1,40 @@
+name: ForceItemBattle
+version: 1.0.0
+main: de.oskar.forceitem.ForceItem
+description: ForceItemBattle
+author: Oskar
+softdepend: ['Multiverse-Core']
+depend: [ ProtocolLib ]
+api-version: 1.19
+commands:
+  start:
+    description: Start the game
+    usage: /<command>
+    permission: forceitem.start
+  gameDifficulty:
+    description: Set the game difficulty
+    usage: /<command> <easy | medium | hard>
+    permission: forceitem.difficulty
+  duration:
+    description: Set the game duration
+    usage: /<command> <minutes>
+    permission: forceitem.duration
+  pause:
+    description: Pause the game
+    usage: /<command>
+    permission: forceitem.pause
+  end:
+    description: End the game
+    usage: /<command>
+    permission: forceitem.end
+  keepinventory:
+    description: Set keep inventory
+    usage: /<command> <on | off>
+    permission: forceitem.keepinventory
+  skip:
+    description: Skip the current item
+    usage: /<command>
+  setskips:
+    description: Set the amount of skips
+    usage: /<command> <amount>
+    permission: forceitem.setskips
